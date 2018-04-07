@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
 * {
     
     box-sizing: border-box;
@@ -10,9 +12,11 @@
 html, body {
     
     background: #111111;
+    background-image: url(assets/BGpic.png);
     padding: 3em;
-    font-family: 'Raleway', 'Arial';
-    color: #fff;
+    //font-family: 'Raleway', 'Arial';
+    font-family: 'Cabin', sans-serif;
+    color: #CFCFCF;
     height: 100%;
 }
 
@@ -24,6 +28,17 @@ html, body {
 .centeredText {
     
     text-align: center;
+}
+
+.justifiedText {
+    
+    font-family: 'Cabin', sans-serif;
+    text-align: justify;
+}
+
+.highlight {
+    
+    color: orange;
 }
 
 ::-webkit-scrollbar
@@ -74,8 +89,7 @@ a {
 
 .header {
     
-    padding: 15px;
-    height: 15%;
+    height: 10%;
 }
 
 .row::after {
@@ -134,17 +148,23 @@ a {
 .pageContainer {
     
     position: relative;
-    background: #441111;
+    border-top-right-radius: 10px;
+    background: #191919;
     width: 100%;
     height: 100%;
+}
+
+.rounded {
+    
+    border-bottom-right-radius: 10px;
 }
 
 .menu {
     
     position: relative;
-    background: #232323;
+    background: #191919;
     max-width: 120px;
-    height: 85%;
+    height: 90%;
     float: left;
 }
 
@@ -157,23 +177,23 @@ a {
 
 .main {
     
-    background: #444444;
+    background: #222222;
     width: 100%;
-    height: 85%;
+    height: 90%;
     padding-left: 120px;
-}
-
-.color-notlight {
-    
-    background: #272727;
 }
 
 .color-light {
     
-    background: #2A2A2A;
+    background: #232323;
+}
+
+.color-notlight {
+    
+    background: #1f1f1f;
 }
 
 .color-dark {
     
-    background: #181818;
+    background: #151515;
 }

@@ -1,25 +1,25 @@
-<div class="pageContainer">
+<div class="pageContainer color-notlight rounded">
     <div class="header">
-        <h1 class="title">Joshua Styles</h1>
+        <h1 class="title highlight">Joshua Styles</h1>
     </div>
 
     <div class="menu">
 
         <a routerLink="home">
-        <img src="/assets/menuBTN.png" alt="Home" class="menuBTN">
+        <img src="/assets/home.png" alt="Home" class="menuBTN" onmouseover="src='/assets/home_over.png'" onmouseout="src='/assets/home.png'">
         </a>
         <a routerLink="about">
-        <img src="/assets/menuBTN.png" alt="About" class="menuBTN">
+        <img src="/assets/about.png" alt="About" class="menuBTN" onmouseover="src='/assets/about_over.png'" onmouseout="src='/assets/about.png'">
         </a>
         <a routerLink="portfolio">
-        <img src="/assets/menuBTN.png" alt="Portfolio" class="menuBTN">
+        <img src="/assets/portfolio.png" alt="Portfolio" class="menuBTN" onmouseover="src='/assets/portfolio_over.png'" onmouseout="src='/assets/portfolio.png'">
         </a>
         <a routerLink="contact">
-        <img src="/assets/menuBTN.png" alt="Contact" class="menuBTN">
+        <img src="/assets/contact.png" alt="Contact" class="menuBTN" onmouseover="src='/assets/contact_over.png'" onmouseout="src='/assets/contact.png'">
         </a>
     </div>
 
-    <div class="main">
+    <div class="main rounded">
 
             <router-outlet></router-outlet>
     </div>

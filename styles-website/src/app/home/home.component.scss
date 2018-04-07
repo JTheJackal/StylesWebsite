@@ -5,14 +5,19 @@
 
 .topContainer {
     
-    margin: 0 25% 0 25%;
-    width: 50%;
+    //margin: 0 25% 0 25%;
+    padding-top: 2%;
+    padding-left: 2%;
+    text-align: center;
+    width: 25%;
     height: 100%;
+    //border-radius: 0 20px 0 0;
 }
 
 .bottomContainer {
     
     height: 100%;
+    padding: 0 5% 0 5%;
 }
 
 .middleContainer {
@@ -24,4 +29,206 @@
 .rightContainer {
     
     height: 100%;
+}
+
+.bioPic {
+    
+    width: 100%;
+    height: 100%;
+    //border-radius: 20px;
+}
+
+.summaryContainer {
+    
+    background-image: -webkit-linear-gradient(40deg, #232323 20%, #1f1f1f 30%);
+}
+
+.summary {
+    
+    height: 25%;
+}
+
+.summaryTXT {
+    
+    margin: 0;
+    padding-top: 2%;
+    color: #9f9f9f;
+}
+
+.summaryTXT1 {
+    
+    padding-left: 60%;
+}
+
+.summaryTXT2 {
+    
+    padding-left: 70%;
+}
+
+.summaryTXT3 {
+    
+    padding-left: 80%;
+}
+
+.summaryTXT4 {
+    
+    padding-left: 90%;
+}
+
+.line1 {
+    
+    height: 2px;
+    width: 1px;
+    background: #232323;
+    position: absolute;
+    margin-top: 2.55%;
+    margin-left: 7%;
+}
+
+.line2 {
+    
+    height: 2px;
+    width: 1px;
+    background: #252525;
+    position: absolute;
+    margin-top: 2.55%;
+    margin-left: 11%;
+}
+
+.line3 {
+    
+    height: 2px;
+    width: 1px;
+    background: #2a2a2a;
+    position: absolute;
+    margin-top: 2.55%;
+    margin-left: 15%;
+}
+
+.line4 {
+    
+    height: 2px;
+    width: 1px;
+    background: #2f2f2f;
+    position: absolute;
+    margin-top: 2.55%;
+    margin-left: 19%;
+}
+
+.circle1 {
+  
+    width: 3px;
+    height: 3px;
+    margin-top: 2.55%;
+    margin-left: 7%;
+    position: absolute;
+    background: orange;
+    border-radius: 50%;
+}
+
+.circle2 {
+  
+    width: 3px;
+    height: 3px;
+    margin-top: 2.55%;
+    margin-left: 11%;
+    position: absolute;
+    background: orange;
+    border-radius: 50%;
+}
+
+.circle3 {
+  
+    width: 3px;
+    height: 3px;
+    margin-top: 2.55%;
+    margin-left: 15%;
+    position: absolute;
+    background: orange;
+    border-radius: 50%;
+}
+
+.circle4 {
+  
+    width: 3px;
+    height: 3px;
+    margin-top: 2.55%;
+    margin-left: 19%;
+    position: absolute;
+    background: orange;
+    border-radius: 50%;
+}
+
+.introHead {
+    
+    -webkit-animation: headFadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 2s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 2s; /* Internet Explorer */
+    -o-animation: headFadeIn 2s; /* Opera < 12.1 */
+    animation: headFadeIn 2s;
+}
+
+.introBody {
+    
+    -webkit-animation: headFadeIn 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 6s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 6s; /* Internet Explorer */
+    -o-animation: headFadeIn 6s; /* Opera < 12.1 */
+    animation: headFadeIn 6s;
+}
+
+@keyframes headFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes headFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes headFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes headFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.expandingLine {
+    
+    -webkit-animation-name: squash;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-timing-function: ease-out;
+}
+
+.movingCircle {
+    
+    -webkit-animation-name: moveCircle;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes squash {
+    
+    from { width: 1px; }
+    to  { width: 26%; }
+}
+
+@-webkit-keyframes moveCircle {
+    
+        from { }
+        to  { transform: translateX(23.25vw);
+    }
 }
