@@ -17,7 +17,7 @@
 .bottomContainer {
     
     height: 100%;
-    padding: 0 5% 0 5%;
+    padding: 0 2% 0 2%;
 }
 
 .middleContainer {
@@ -38,6 +38,11 @@
     //border-radius: 20px;
 }
 
+.welcomeTXT {
+    
+    font-size: 4em;
+}
+
 .summaryContainer {
     
     background-image: -webkit-linear-gradient(40deg, #232323 20%, #1f1f1f 30%);
@@ -53,6 +58,7 @@
     margin: 0;
     padding-top: 2%;
     color: #9f9f9f;
+    font-size: 1.5em;
 }
 
 .summaryTXT1 {
@@ -161,11 +167,13 @@
 
 .introHead {
     
-    -webkit-animation: headFadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: headFadeIn 2s; /* Firefox < 16 */
-    -ms-animation: headFadeIn 2s; /* Internet Explorer */
-    -o-animation: headFadeIn 2s; /* Opera < 12.1 */
-    animation: headFadeIn 2s;
+    -webkit-animation: headFadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 4s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 4s; /* Internet Explorer */
+    -o-animation: headFadeIn 4s; /* Opera < 12.1 */
+    animation: headFadeIn 4s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
 }
 
 .introBody {
@@ -175,6 +183,8 @@
     -ms-animation: headFadeIn 6s; /* Internet Explorer */
     -o-animation: headFadeIn 6s; /* Opera < 12.1 */
     animation: headFadeIn 6s;
+    -webkit-animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes headFadeIn {
@@ -206,7 +216,7 @@
     -webkit-animation-duration: 2s;
     -webkit-animation-direction: normal;
     -webkit-animation-fill-mode: forwards;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 4s;
     -webkit-animation-timing-function: ease-out;
 }
 
@@ -216,7 +226,7 @@
     -webkit-animation-duration: 2s;
     -webkit-animation-direction: normal;
     -webkit-animation-fill-mode: forwards;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 4s;
     -webkit-animation-timing-function: ease-out;
 }
 
