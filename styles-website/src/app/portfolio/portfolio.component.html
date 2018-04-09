@@ -1,12 +1,36 @@
 <div class="col-10 middleContainer">
     <div class="row projectLineup">
-        <div class="col-4 color-dark projectThumb">
+        <div class="col-4 color-notdark projectThumb" (click)="checkID('dronezone')">
+            <p>Picture of my project</p>
+        </div>
+        <div class="col-4 color-light projectThumb" (click)="checkID('tetris')">
+            <p>Picture of my project</p>
+        </div>
+        <div class="col-4 color-notdark projectThumb" (click)="checkID('jaguar')">
+            <p>Picture of my project</p>
+        </div>
+    </div>
+    
+    <div class="row projectLineup">
+        <div class="col-4 color-light projectThumb" (click)="checkID('IMClient')">
+            <p>Picture of my project</p>
+        </div>
+        <div class="col-4 color-notdark projectThumb" (click)="checkID('IMServer')">
+            <p>Picture of my project</p>
+        </div>
+        <div class="col-4 color-light projectThumb" (click)="checkID('draughts')">
+            <p>Picture of my project</p>
+        </div>
+    </div>
+    
+    <div class="row projectLineup">
+        <div class="col-4 color-notdark projectThumb" (click)="checkID('timer')">
             <p>Picture of my project</p>
         </div>
         <div class="col-4 color-light projectThumb">
             <p>Picture of my project</p>
         </div>
-        <div class="col-4 color-dark projectThumb">
+        <div class="col-4 color-notdark projectThumb">
             <p>Picture of my project</p>
         </div>
     </div>
@@ -15,31 +39,7 @@
         <div class="col-4 color-light projectThumb">
             <p>Picture of my project</p>
         </div>
-        <div class="col-4 color-dark projectThumb">
-            <p>Picture of my project</p>
-        </div>
-        <div class="col-4 color-light projectThumb">
-            <p>Picture of my project</p>
-        </div>
-    </div>
-    
-    <div class="row projectLineup">
-        <div class="col-4 color-dark projectThumb">
-            <p>Picture of my project</p>
-        </div>
-        <div class="col-4 color-light projectThumb">
-            <p>Picture of my project</p>
-        </div>
-        <div class="col-4 color-dark projectThumb">
-            <p>Picture of my project</p>
-        </div>
-    </div>
-    
-    <div class="row projectLineup">
-        <div class="col-4 color-light projectThumb">
-            <p>Picture of my project</p>
-        </div>
-        <div class="col-4 color-dark projectThumb">
+        <div class="col-4 color-notdark projectThumb">
             <p>Picture of my project</p>
         </div>
         <div class="col-4 color-light projectThumb">
@@ -49,15 +49,13 @@
 </div>
 
 <div class="col-2 color-light rightContainer rounded">
-    <div class="infoContainer color-light">
+    <div class="infoContainer color-light" id="infoContainer">
         Some info about the currently selected project.
     </div>
-    <div class="buttonContainer color-light rounded">
+    <div class="buttonContainer color-light rounded" id="buttonContainer">
     
         <a routerLink="../view-project">
-            <img src="/assets/menuBTN.png" alt="View" class="viewBTN">
+            <img src="/assets/viewBTN.png" alt="View" class="viewBTN">
         </a>
     </div>
-    
-    
 </div>

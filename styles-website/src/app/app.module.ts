@@ -10,6 +10,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ViewProjectComponent } from './view-project/view-project.component';
 import { TryProjectComponent } from './try-project/try-project.component';
+import { TetrisComponent } from './tetris/tetris.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TryProjectComponent } from './try-project/try-project.component';
     PortfolioComponent,
     ContactComponent,
     ViewProjectComponent,
-    TryProjectComponent
+    TryProjectComponent,
+    TetrisComponent
   ],
   imports: [
     BrowserModule,

@@ -15,7 +15,8 @@ html, body {
     background-image: url(assets/BGpic.png);
     padding: 3em;
     //font-family: 'Raleway', 'Arial';
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
     color: #CFCFCF;
     height: 100%;
 }
@@ -32,8 +33,13 @@ html, body {
 
 .justifiedText {
     
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #9f9f9f;
     text-align: justify;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
 }
 
 .highlight {
@@ -59,15 +65,9 @@ html, body {
 
 ul {
     
-    list-style-type: none;
+    list-style-type: square;
     margin: 0 0 2em 0;
     padding: 0;
-}
-
-ul li {
-    
-    display: grid;
-    margin-right: 30px;
 }
 
 ul li a {

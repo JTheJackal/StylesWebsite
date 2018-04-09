@@ -9,7 +9,7 @@
     padding-top: 2%;
     padding-left: 2%;
     text-align: center;
-    width: 25%;
+    min-width: 25%;
     height: 100%;
     //border-radius: 0 20px 0 0;
 }
@@ -17,7 +17,7 @@
 .bottomContainer {
     
     height: 100%;
-    padding: 0 2% 0 2%;
+    padding: 4% 2% 0 4%;
 }
 
 .middleContainer {
@@ -38,9 +38,29 @@
     //border-radius: 20px;
 }
 
-.welcomeTXT {
+.headTXT {
     
     font-size: 4em;
+    margin: 0;
+    font-weight: 100;
+    transform: scaleY(1);
+    margin-top: 25%;
+}
+
+.headTXT2 {
+    
+    font-size: 6em;
+    margin: 0;
+    font-weight: 400;
+    color: orange;
+}
+
+.welcomeTXT {
+    
+    font-size: 7em;
+    font-weight: 100;
+    color: #252525;
+    margin: 0;
 }
 
 .summaryContainer {
@@ -51,6 +71,7 @@
 .summary {
     
     height: 25%;
+    width: 100%;
 }
 
 .summaryTXT {
@@ -59,43 +80,48 @@
     padding-top: 2%;
     color: #9f9f9f;
     font-size: 1.5em;
+    font-weight: 100;
 }
 
 .summaryTXT1 {
     
     padding-left: 60%;
+    padding-top: 2.25%;
 }
 
 .summaryTXT2 {
     
-    padding-left: 70%;
+    padding-left: 66.5%;
+    padding-top: 2.25%;
 }
 
 .summaryTXT3 {
     
-    padding-left: 80%;
+    padding-left: 73.5%;
+    padding-top: 2.25%;
 }
 
 .summaryTXT4 {
     
-    padding-left: 90%;
+    padding-left: 80.25%;
+    padding-top: 2.25%;
 }
 
 .line1 {
     
     height: 2px;
-    width: 1px;
     background: #232323;
     position: absolute;
     margin-top: 2.55%;
-    margin-left: 7%;
+    margin-left: 6.75%;
 }
 
 .line2 {
     
     height: 2px;
     width: 1px;
-    background: #252525;
+    //background: #252525;
+    background: #232323;
     position: absolute;
     margin-top: 2.55%;
     margin-left: 11%;
@@ -105,7 +131,8 @@
     
     height: 2px;
     width: 1px;
-    background: #2a2a2a;
+    //background: #2a2a2a;
+    background: #232323;
     position: absolute;
     margin-top: 2.55%;
     margin-left: 15%;
@@ -115,10 +142,11 @@
     
     height: 2px;
     width: 1px;
-    background: #2f2f2f;
+    //background: #2f2f2f;
+    background: #232323;
     position: absolute;
     margin-top: 2.55%;
-    margin-left: 19%;
+    margin-left: 19.25%;
 }
 
 .circle1 {
@@ -176,6 +204,19 @@
     -webkit-animation-fill-mode: forwards;
 }
 
+.movingName {
+    
+    -webkit-animation: headFadeIn 1s, stretchName 1s, moveName 1s,; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 1s, moveName 2s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 1s, moveName 2s; /* Internet Explorer */
+    -o-animation: headFadeIn 1s, moveName 2s; /* Opera < 12.1 */
+    animation: headFadeIn 3s, stretchName 4s, moveName 4s,;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 1s, 1s, 1s;
+    -webkit-animation-fill-mode: forwards;
+
+}
+
 .introBody {
     
     -webkit-animation: headFadeIn 6s; /* Safari, Chrome and Opera > 12.1 */
@@ -184,6 +225,17 @@
     -o-animation: headFadeIn 6s; /* Opera < 12.1 */
     animation: headFadeIn 6s;
     -webkit-animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.introWelcome {
+    
+    -webkit-animation: headFadeIn 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 5s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 5s; /* Internet Explorer */
+    -o-animation: headFadeIn 5s; /* Opera < 12.1 */
+    animation: headFadeIn 5s;
+    -webkit-animation-delay: 5s;
     -webkit-animation-fill-mode: forwards;
 }
 
@@ -213,7 +265,7 @@
 .expandingLine {
     
     -webkit-animation-name: squash;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-direction: normal;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: 4s;
@@ -223,7 +275,7 @@
 .movingCircle {
     
     -webkit-animation-name: moveCircle;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-direction: normal;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: 4s;
@@ -232,13 +284,31 @@
 
 @-webkit-keyframes squash {
     
-    from { width: 1px; }
-    to  { width: 26%; }
+    from { width: 0%}
+    to  { width: 27% }
 }
 
 @-webkit-keyframes moveCircle {
     
         from { }
-        to  { transform: translateX(23.25vw);
-    }
+        to  { 
+            transform: translateX(24vw);
+        }
 }
+
+@-webkit-keyframes moveName {
+    
+        from { }
+        to  { 
+            margin-top: 5%;
+        }
+}
+
+@-webkit-keyframes stretchName {
+    
+        from { }
+        to  { 
+            transform: scaleY(1.4);
+        }
+}
+
