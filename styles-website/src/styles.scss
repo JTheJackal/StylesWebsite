@@ -81,6 +81,22 @@ a {
     text-decoration: none;
 }
 
+.ul2 {
+    
+    margin-left: 3%;
+    list-style-type: none;
+}
+
+.li2 {
+    
+    color: 9f9f9f;
+}
+
+.li2::before {
+  content: "• ";
+  color: orange; 
+}
+
 .title {
     
     text-align: center;
@@ -201,4 +217,9 @@ a {
 .color-dark {
     
     background: #151515;
+}
+
+.orange {
+    
+    color: orange;
 }

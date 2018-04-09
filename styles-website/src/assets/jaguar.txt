@@ -1,0 +1,33 @@
+<h1 class="orange centeredText">Jaguar</h1>
+
+<p class="justifiedText">Jaguar is a top down shooter playable in your browser. It was created for a university assignment as a solo project over the space of 3 months.</p>
+
+<h3 class="orange">Background</h3>
+
+<p class="justifiedText">I was tasked with creating a browser game using HTML5, Javascript and utilising the Phaser framework. I decided to create a top down shooter and draw on inspiration from classic games such as "Doom" and "Aliens VS Predator" while incorporating features one would expect from more modern videogames as an experiment to see if these elements could be successfully combined into an enjoyable game.</p>
+<br />
+<p class="justifiedText">The player controls a nameless hero tasked with finding a datastick and escaping while hordes of hostile aliens try to kill you. To deal with the enemies, the player can fire dual machine pistols which are weak but have an infinite supply of ammunition. Exploration will allow the player to find more powerful weapons with limited ammo, additional ammo, powerups and keycards. Keycards are used for the locked doors found around the level.</p>
+<br />
+<p class="justifiedText">Due to my familiarity with creating browser games and using the Phaser framework, I decided I would go beyond the scope of the requirements for the assignment and implement some additional features to bring the game to a higher standard. These additional features were mainly aimed at the user-experience and included a self-sorting, online, top 10 ranking table using PHP and mySQLi, the ability to manually reload and sprint, dialogue for telling the player their current objective and an options menu where the user could change certain things to improve their experience.</p>
+</br />
+<p class="justifiedText">All assets used to create the game were custom made, including sound effects, background music and animated sprites.</p>
+
+<h3 class="orange">My roles</h3>
+
+<p class="justifiedText">As this was a solo project I had take on many responsibilities which included:</p>
+
+<ul class="ul2">
+	<li class="li2">Creation and mainting of a website to host the game and documentation.</li>
+	<li class="li2">Creation of assets.</li>
+	<li class="li2">Level design, planning and creation.</li>
+	<li class="li2">Coding the game using Javascript and Phaser.</li>
+	<li class="li2">Simple enemy A.I.</li>
+	<li class="li2">Online rankings table using PHP and mySQLi.</li>
+	<li class="li2">Documentation throughout.</li>
+</ul>
+    
+    
+    
+    
+    
+    
