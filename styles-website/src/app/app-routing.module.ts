@@ -26,7 +26,7 @@ const routes: Routes = [
         component: ContactComponent
     },
     {
-        path: 'view-project',
+        path: 'view-project/:projectID',
         component: ViewProjectComponent
     },
     {

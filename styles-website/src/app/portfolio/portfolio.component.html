@@ -1,6 +1,6 @@
 <div class="col-10 middleContainer">
     <div class="row projectLineup">
-        <div class="col-4 color-notdark projectThumb" (click)="checkID('dronezone')">
+        <div class="col-4 color-notdark projectThumb" (click)="checkID('droneZone')">
             <p>Picture of my project</p>
         </div>
         <div class="col-4 color-light projectThumb" (click)="checkID('tetris')">
@@ -27,7 +27,7 @@
         <div class="col-4 color-notdark projectThumb" (click)="checkID('timer')">
             <p>Picture of my project</p>
         </div>
-        <div class="col-4 color-light projectThumb">
+        <div class="col-4 color-light projectThumb" (click)="checkID('aesthetic')">
             <p>Picture of my project</p>
         </div>
         <div class="col-4 color-notdark projectThumb">
@@ -54,7 +54,7 @@
     </div>
     <div class="buttonContainer color-light rounded" id="buttonContainer">
     
-        <a routerLink="../view-project">
+        <a routerLink="../view-project/{{projectID}}">
             <img src="/assets/viewBTN.png" alt="View" class="viewBTN">
         </a>
     </div>

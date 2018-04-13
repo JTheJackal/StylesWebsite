@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-view-project',
@@ -7,16 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewProjectComponent implements OnInit {
 
-  constructor() { 
+  projectName: string;
   
+  constructor(private route: ActivatedRoute) { 
+  
+    this.route.params.subscribe(res => this.projectName = res.projectID));
+    //this.projectName = res.projectID;
+    
+    console.log("THE PROJECT IS: " + this.projectName);
   }
 
   ngOnInit() {
   
     console.log("inited");
     
-    this.readFile("jaguar");
-    this.readTechFile("jaguar");
+    this.readFile(this.projectName);
+    this.readTechFile(this.projectName);
   }
   
   readFile(filename){
