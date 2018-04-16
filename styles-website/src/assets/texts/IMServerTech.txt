@@ -7,3 +7,14 @@
 	<li class="li2">SQL</li>
     <li class="li2">JSON</li>
 </ul>
+
+<p class="justifiedText">Planning & Documentation:<p>
+
+<ul class="ul2">
+	<li class="li2">Agile</li>
+	<li class="li2">Microsoft Project</li>
+	<li class="li2">Microsoft Word</li>
+	<li class="li2">LaTeX</li>
+	<li class="li2">Trello</li>
+	<li class="li2">GitHub</li>
+</ul>

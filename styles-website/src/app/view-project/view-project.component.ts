@@ -50,6 +50,14 @@ export class ViewProjectComponent implements OnInit {
             filepath = "/assets/texts/IMClient.txt";
             break;
             
+        case "IMServer":
+            filepath = "/assets/texts/IMServer.txt";
+            break;
+            
+        case "draughts":
+            filepath = "/assets/texts/draughts.txt";
+            break;
+            
     }
     
     this.handleRequest(container, filepath);
@@ -77,6 +85,14 @@ export class ViewProjectComponent implements OnInit {
             
         case "IMClient":
             filepath = "/assets/texts/IMClientTech.txt";
+            break;
+            
+        case "IMServer":
+            filepath = "/assets/texts/IMServerTech.txt";
+            break;
+            
+        case "draughts":
+            filepath = "/assets/texts/draughtsTech.txt";
             break;
             
     }

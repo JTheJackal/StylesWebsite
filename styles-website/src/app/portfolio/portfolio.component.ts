@@ -28,48 +28,49 @@ export class PortfolioComponent implements OnInit {
     switch(projID){
     
         case "droneZone":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>Drone Zone stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("droneZone");
             filepath = "/assets/texts/droneZoneTech.txt";
             break;
         
         case "tetris":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>Tetris stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("tetris");
             filepath = "/assets/texts/tetrisTech.txt";
             break;
         
         case "jaguar":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>Jaguar stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("jaguar");
             filepath = "/assets/texts/jaguarTech.txt";
             break;
         
         case "IMClient":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>IM Client stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("IMClient");
             filepath = "/assets/texts/IMClientTech.txt";
             break;
         
         case "IMServer":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>IM Server stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("IMServer");
             filepath = "/assets/texts/IMServerTech.txt";
             break;
         
         case "draughts":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>Draughts stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("draughts");
+            filepath = "/assets/texts/draughtsTech.txt";
             break;
         
         case "timer":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>Timer stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("timer");
             filepath = "/assets/texts/timerTech.txt";
             break;
         
         case "aesthetic":
-            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>Anaesthetic Aesthetic stuff</div>"
+            infobox.innerHTML = "<div class='infoContainer color-light' id='infoContainer'>...</div>"
             this.changeID("aesthetic");
             filepath = "/assets/texts/aestheticTech.txt";
             break;

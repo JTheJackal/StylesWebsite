@@ -4,23 +4,25 @@
 
 <h3 class="orange">Background</h3>
 
-<p class="justifiedText"></p>
+<p class="justifiedText">The assignment required us to make use of a web service and any technologies that allowed the application to be used on a mobile device. Given my enthusiasm for Android development, we elected to develop our game for mobile devices running Android, making use of Android Studio and Firebase as a web service. The application idea itself was chosen to be Draughts (or Checkers as it is also known) which can be played against a human opponent on another Android mobile device.</p>
 <br />
-<p class="justifiedText"></p>
+<p class="justifiedText">The players select their usernames and search for a game, from there, they are automatically matched with another waiting opponent and placed into a game. Each player takes turns to move their pieces around the gameboard and capture opponent pieces. The game is won when a player successfully captures all of their opponents pieces.</p>
 <br />
-<p class="justifiedText">All assets used were made from scratch for the project.</p>
+<p class="justifiedText">Android Studio was used to create the application, making use of XML for each Activity Layout design in the menus, and Java for the game logic and asset placements from then on. All data sent and retrieved from the mobile devices was sent via JSON to and from a NoSQL Firebase datastore.</p>
+<br />
+<p class="justifiedText">All visual assets used were made from scratch for the project.</p>
 
 <h3 class="orange">My roles</h3>
 
-<p class="justifiedText">Due to the small team size and variance in ability, we all took on multiple roles to ensure the completion of the project and provide support for each other. My responsibilities were:</p>
+<p class="justifiedText">In the team of two, I was soley responsible for all the development while my partner took care of documentation and test cases. Some of the tasks included:</p>
 
 <ul class="ul2">
-	<li class="li2">Planning and updating deliverables and milestones.</li>
-	<li class="li2">Creation of 3D Assets, including design, modelling, rigging and texturing.</li>
-	<li class="li2">Level design, planning and creation.</li>
-	<li class="li2">Assembly of assets within Unity.</li>
-	<li class="li2">C# Scripting for player interaction and gameplay mechanics.</li>
-	<li class="li2">Documentation.</li>
+    <li class="li2">Collaboratively creating a design and plan for the application.</li>
+	<li class="li2">Creating the application layouts using the Android Studio editor and XML.</li>
+	<li class="li2">Creating the game logic with Java.</li>
+	<li class="li2">Creating and maintaining the Firebase datastore.</li>
+	<li class="li2">Creating the graphical assets in Adobe Photoshop.</li>
+	<li class="li2">Carrying out testing with Android Studio's emulators and with physical devices.</li>
 </ul>
     
     

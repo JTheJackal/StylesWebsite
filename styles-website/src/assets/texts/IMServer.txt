@@ -1,0 +1,25 @@
+<h1 class="orange centeredText">Instant Messenger Server</h1>
+
+<p class="justifiedText">The Instant Messenger server handled all incoming and outgoing traffic between users of the Instant Messenger Client which was being developed in tandem. The team consisted of 5 members.
+
+<h3 class="orange">Background</h3>
+
+<p class="justifiedText">The university assignment required the 5-person team to create an application which made use of networking technology. The choice of languages and type of application was left for us to choose. We decided to create an instant messenger which drew heavily from Skype Messenger, and use it as a basis of collectively improving our ability with Java and backend development.</p>
+<br />
+<p class="justifiedText">The user is presented with a desktop application which allows them to have conversations with other users remotely. The server was developed using Java with the sole purpose of handling traffic from users. This included allowing users to connect by authenticating their requests, opening and closing threads for new socket connections, sending/receiving JSON payloads and handling the payloads depending on the type of requests. The server also made use of a MySQL database containing user details in order to authenticate users attempting to connect.</p>
+<br />
+<p class="justifiedText">Data was decided to be sent and received via JSON to keep the server language-independant, should the client-side ever make use of a language other than Java, the server will still work as expected.</p>
+
+<h3 class="orange">My roles</h3>
+
+<p class="justifiedText">As the team consisted of 5 members, we were able to divide ourselves into "backend" and "front end" teams. I was assigned to the front end team but still helped out on the server development; some of my tasks included:</p>
+
+<ul class="ul2">
+	<li class="li2">Planning and updating deliverables and milestones.</li>
+    <li class="li2">Managing the team via Gantt charts, CPM charts, Trello and meetings.
+	<li class="li2">Communicating progress and updates with the supervisor.</li>
+    <li class="li2">Help with development of the server in Java</li>
+	<li class="li2">Having the server send and recieve data via JSON and handle that data.</li>
+	<li class="li2">Testing the application and presenting it to the supervisor once complete.</li>
+	<li class="li2">Documentation.</li>
+</ul>

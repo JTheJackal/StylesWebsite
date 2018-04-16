@@ -1,24 +1,25 @@
 <h1 class="orange centeredText">Instant Messenger Client</h1>
 
-<p class="justifiedText">We were tasked with making the client side and the server side of an Instant Messenger. The team consisted of 5 members, including myself and the choice of technologies was left to us.</p>
+<p class="justifiedText">The Instant Messenger client is a desktop application that allows online text-based communication with other users via a central server. The team consisted of 5 members.
 
 <h3 class="orange">Background</h3>
 
-<p class="justifiedText">The team decided to create an Instant Messenger which drew heavy inspiration from Skype Messenger. </p>
+<p class="justifiedText">The university assignment required the 5-person team to create an application which made use of networking technology. The choice of languages and type of application was left for us to choose. We decided to create an instant messenger which drew heavily from Skype Messenger, and use it as a basis of collectively improving our ability with Java and backend development.</p>
 <br />
-<p class="justifiedText"></p>
+<p class="justifiedText">The user is presented with a desktop application which allows them to have conversations with other users remotely. The expected, vital features of an Instant Messenger were included such as user authentication and online status were included. </p>
 <br />
-<p class="justifiedText">All assets used to create the game were custom made, including scripts, 3D models and animations</p>
+<p class="justifiedText">The client side of the application was developed using Java, JavaFX and the JFoenix library. The project involved dealing with sockets and sending/receiving messages via JSON, handling them and having the application react in the expected manner, such as displaying a contact as "Online" or having messages appear on the window.</p>
 
 <h3 class="orange">My roles</h3>
 
-<p class="justifiedText">Due to the small team size and variance in ability, we all took on multiple roles to ensure the completion of the project and provide support for each other. My responsibilities were:</p>
+<p class="justifiedText">As the team consisted of 5 members, we were able to divide ourselves into "backend" and "front end" teams but still helped out on both sides where needed. I was assigned to the front end team and some of the tasks included:</p>
 
 <ul class="ul2">
 	<li class="li2">Planning and updating deliverables and milestones.</li>
-	<li class="li2">Creation of 3D Assets, including design, modelling, rigging and texturing.</li>
-	<li class="li2">Level design, planning and creation.</li>
-	<li class="li2">Assembly of assets within Unity.</li>
-	<li class="li2">C# Scripting for player interaction and gameplay mechanics.</li>
+    <li class="li2">Managing the team via Gantt charts, CPM charts, Trello and meetings.
+	<li class="li2">Communicating progress and updates with the supervisor.</li>
+	<li class="li2">Implementing the planned design of the application with Java.</li>
+	<li class="li2">Having the client send and recieve data via JSON and handle that data.</li>
+	<li class="li2">Testing the application and presenting it to the supervisor once complete.</li>
 	<li class="li2">Documentation.</li>
 </ul>

@@ -9,3 +9,11 @@
 	<li class="li2">Phaser</li>
 	<li class="li2">Adobe Photoshop</li>
 </ul>
+
+<p class="justifiedText">Planning & Documentation:<p>
+
+<ul class="ul2">
+	<li class="li2">Agile</li>
+	<li class="li2">Microsoft Project</li>
+	<li class="li2">Microsoft Word</li>
+</ul>
