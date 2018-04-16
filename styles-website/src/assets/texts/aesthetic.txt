@@ -1,0 +1,30 @@
+<h1 class="orange centeredText">Anaesthetic Aesthetic</h1>
+
+<p class="justifiedText">Anaesthetic Aesthetic is a 3D Stealth game made by a team of 3 people over the course of 3 months as a university project.</p>
+
+<h3 class="orange">Background</h3>
+
+<p class="justifiedText">We decided we wanted to make a game for a young target audience but also utilise a genre not typically associated with that age range - a stealth game. Our team also agreed on making the game 3D in order to gain more experience in 3D engines as well as to further familiarise ourselves with 3D level design and pathing. A story was created around this structure, depicting the plight of a young, socially awkward princess trying to infiltrate her own castle, which had been taken over by an evil witch, avoiding the bewitched guards as she does so.</p>
+<br />
+<p class="justifiedText">The player controls a nameless hero tasked with finding a datastick and escaping while hordes of hostile aliens try to kill you. To deal with the enemies, the player can fire dual machine pistols which are weak but have an infinite supply of ammunition. Exploration will allow the player to find more powerful weapons with limited ammo, additional ammo, powerups and keycards. Keycards are used for the locked doors found around the level.</p>
+<br />
+<p class="justifiedText">All assets used to create the game were custom made, including scripts, 3D models and animations</p>
+
+<h3 class="orange">My roles</h3>
+
+<p class="justifiedText">Due to the small team size and variance in ability, we all took on multiple roles to ensure the completion of the project and provide support for each other. My responsibilities were:</p>
+
+<ul class="ul2">
+	<li class="li2">Planning and updating deliverables and milestones.</li>
+	<li class="li2">Creation of 3D Assets, including design, modelling, rigging and texturing.</li>
+	<li class="li2">Level design, planning and creation.</li>
+	<li class="li2">Assembly of assets within Unity.</li>
+	<li class="li2">C# Scripting for player interaction and gameplay mechanics.</li>
+	<li class="li2">Documentation.</li>
+</ul>
+    
+    
+    
+    
+    
+    

@@ -30,7 +30,7 @@ const routes: Routes = [
         component: ViewProjectComponent
     },
     {
-        path: 'try-project',
+        path: 'try-project/:projectID',
         component: TryProjectComponent
     }
 ];

@@ -12,7 +12,7 @@ export class ViewProjectComponent implements OnInit {
   
   constructor(private route: ActivatedRoute) { 
   
-    this.route.params.subscribe(res => this.projectName = res.projectID));
+    this.route.params.subscribe(res => this.projectName = res.projectID);
     //this.projectName = res.projectID;
     
     console.log("THE PROJECT IS: " + this.projectName);
@@ -32,9 +32,24 @@ export class ViewProjectComponent implements OnInit {
     var container = document.getElementById("projectInfoBox");
     var allText = null;
     
-    if(filename == "jaguar"){
-    
-        filepath = "/assets/jaguar.txt";
+    switch(filename){
+            
+        case "jaguar":
+            filepath = "/assets/texts/jaguar.txt";
+            break;
+            
+        case "droneZone":
+            filepath = "/assets/texts/droneZone.txt";
+            break;
+            
+        case "aesthetic":
+            filepath = "/assets/texts/aesthetic.txt";
+            break;
+            
+        case "IMClient":
+            filepath = "/assets/texts/IMClient.txt";
+            break;
+            
     }
     
     this.handleRequest(container, filepath);
@@ -46,14 +61,28 @@ export class ViewProjectComponent implements OnInit {
     var container = document.getElementById("projectTechBox");
     var allText = null;
     
-    if(filename == "jaguar"){
-    
-        filepath = "/assets/jaguarTech.txt";
+    switch(filename){
+            
+        case "jaguar":
+            filepath = "/assets/texts/jaguarTech.txt";
+            break;
+            
+        case "droneZone":
+            filepath = "/assets/texts/droneZoneTech.txt";
+            break;
+            
+        case "aesthetic":
+            filepath = "/assets/texts/aestheticTech.txt";
+            break;
+            
+        case "IMClient":
+            filepath = "/assets/texts/IMClientTech.txt";
+            break;
+            
     }
     
     this.handleRequest(container, filepath);
    }
-   
    
    //Function for handling the XMLHttpRequest for reading text files for content.
    handleRequest(container, filepath){

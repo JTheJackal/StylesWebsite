@@ -1,0 +1,18 @@
+<p class="justifiedText">Created using:<p>
+
+<ul class="ul2">
+	<li class="li2">Android Studio</li>
+	<li class="li2">Java</li>
+	<li class="li2">XML</li>
+    <li class="li2">JSON</li>
+	<li class="li2">Adobe Photoshop</li>
+	<li class="li2">Firebase</li>
+</ul>
+<p class="justifiedText">Documentation included:<p>
+
+<ul class="ul2">
+	<li class="li2">Microsoft Office</li>
+	<li class="li2">Design Document</li>
+	<li class="li2">Technical Specification</li>
+	<li class="li2">Test Plans and Reports</li>
+</ul>

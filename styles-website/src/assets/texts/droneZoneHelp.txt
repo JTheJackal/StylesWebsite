@@ -1,0 +1,4 @@
+<h2 class="centeredText noPad noMargin orange">Instructions</h2> 
+<br />
+<p class="indented justifiedText"><b>W</b>: Ascend</p>
+<p class="indented justifiedText"><b>A</b>: Lean backwards <br /> <b>D</b>: Lean forwards</p>

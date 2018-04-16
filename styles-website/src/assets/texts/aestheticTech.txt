@@ -1,0 +1,21 @@
+<p class="justifiedText">Created using:<p>
+
+<ul class="ul2">
+	<li class="li2">Unity 5.3</li>
+	<li class="li2">C#</li>
+	<li class="li2">Blender 3D</li>
+	<li class="li2">Adobe Photoshop</li>
+</ul>
+<p class="justifiedText">Documentation included:<p>
+
+<ul class="ul2">
+	<li class="li2">Microsoft Project</li>
+	<li class="li2">Microsoft Office</li>
+	<li class="li2">Gantt charts</li>
+	<li class="li2">Critical Path Management chart</li>
+	<li class="li2">RAG Reports</li>
+	<li class="li2">Accurate meeting minutes</li>
+	<li class="li2">Design Document</li>
+	<li class="li2">Technical Specification</li>
+	<li class="li2">Test Plans and Reports</li>
+</ul>

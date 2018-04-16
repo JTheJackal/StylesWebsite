@@ -31,6 +31,7 @@ $id: "none";
     
     height: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .rightContainer {
@@ -55,6 +56,26 @@ $id: "none";
     
     border: 0;
     margin: 0 25% 0 25%;
+}
+
+.doGrow:hover {
+    
+    -webkit-animation: grow 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: grow 2s; /* Firefox < 16 */
+    -ms-animation: grow 2s; /* Internet Explorer */
+    -o-animation: grow 2s; /* Opera < 12.1 */
+    animation: grow 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    from { }
+    to   { //transform: scaleY(1.075);
+            //border-bottom: 5px solid orange;
+            transform: scale(1.025);
+            box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
+            background: #181818;
+    }
 }
 
 @mixin checkID($id){

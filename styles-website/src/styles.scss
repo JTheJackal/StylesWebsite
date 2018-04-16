@@ -11,8 +11,8 @@
 
 html, body {
     
-    background: #111111;
-    background-image: url(assets/BGpic.png);
+    background: #121212;
+    //background-image: url(assets/BGpic.png);
     padding: 3em;
     //font-family: 'Raleway', 'Arial';
     font-family: 'Raleway', sans-serif;
@@ -222,4 +222,14 @@ a {
 .orange {
     
     color: orange;
+}
+
+.noMargin {
+    
+    margin: 0;
+}
+
+.indented {
+    
+    padding-left: 5%;
 }

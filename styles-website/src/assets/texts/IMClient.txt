@@ -1,0 +1,24 @@
+<h1 class="orange centeredText">Instant Messenger Client</h1>
+
+<p class="justifiedText">We were tasked with making the client side and the server side of an Instant Messenger. The team consisted of 5 members, including myself and the choice of technologies was left to us.</p>
+
+<h3 class="orange">Background</h3>
+
+<p class="justifiedText">The team decided to create an Instant Messenger which drew heavy inspiration from Skype Messenger. </p>
+<br />
+<p class="justifiedText"></p>
+<br />
+<p class="justifiedText">All assets used to create the game were custom made, including scripts, 3D models and animations</p>
+
+<h3 class="orange">My roles</h3>
+
+<p class="justifiedText">Due to the small team size and variance in ability, we all took on multiple roles to ensure the completion of the project and provide support for each other. My responsibilities were:</p>
+
+<ul class="ul2">
+	<li class="li2">Planning and updating deliverables and milestones.</li>
+	<li class="li2">Creation of 3D Assets, including design, modelling, rigging and texturing.</li>
+	<li class="li2">Level design, planning and creation.</li>
+	<li class="li2">Assembly of assets within Unity.</li>
+	<li class="li2">C# Scripting for player interaction and gameplay mechanics.</li>
+	<li class="li2">Documentation.</li>
+</ul>

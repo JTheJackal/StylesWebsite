@@ -1,0 +1,30 @@
+<h1 class="orange centeredText">Draughts Online (Android)</h1>
+
+<p class="justifiedText">Draughts Online is a game created for Android mobile. The project was created for the "Advanced Programming for Mobile Devices" class at university in a team of two.</p>
+
+<h3 class="orange">Background</h3>
+
+<p class="justifiedText"></p>
+<br />
+<p class="justifiedText"></p>
+<br />
+<p class="justifiedText">All assets used were made from scratch for the project.</p>
+
+<h3 class="orange">My roles</h3>
+
+<p class="justifiedText">Due to the small team size and variance in ability, we all took on multiple roles to ensure the completion of the project and provide support for each other. My responsibilities were:</p>
+
+<ul class="ul2">
+	<li class="li2">Planning and updating deliverables and milestones.</li>
+	<li class="li2">Creation of 3D Assets, including design, modelling, rigging and texturing.</li>
+	<li class="li2">Level design, planning and creation.</li>
+	<li class="li2">Assembly of assets within Unity.</li>
+	<li class="li2">C# Scripting for player interaction and gameplay mechanics.</li>
+	<li class="li2">Documentation.</li>
+</ul>
+    
+    
+    
+    
+    
+    

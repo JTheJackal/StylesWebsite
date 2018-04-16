@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-try-project',
@@ -7,9 +8,60 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TryProjectComponent implements OnInit {
 
-  constructor() { }
+  projectName: string;
+  
+  constructor(private route: ActivatedRoute) { 
+  
+    this.route.params.subscribe(res => this.projectName = res.projectID);
+    
+    console.log("THE PROOOOJECT ISSS: " + this.projectName)
+  }
 
   ngOnInit() {
+  
+    this.readFile(this.projectName);
   }
+  
+  readFile(filename){
+  
+    var filepath = null;
+    var container = document.getElementById("instructionsBox");
+    var allText = null;
+    
+    switch(filename){
+            
+        case "jaguar":
+            
+            filepath = "/assets/texts/jaguarHelp.txt";
+            break;
+            
+        case "droneZone":
+            
+            filepath = "/assets/texts/droneZoneHelp.txt";
+            break;
+    }
+
+    this.handleRequest(container, filepath);
+   }
+   
+   //Function for handling the XMLHttpRequest for reading text files for content.
+   handleRequest(container, filepath){
+   
+    var allText = null;
+    var raw = new XMLHttpRequest(); // create a request
+    raw.open("GET", filepath, true); // open file
+    raw.onreadystatechange = function (){ // file is ready to read
+        if(raw.readyState === 4){
+            if(raw.status === 200 || raw.status == 0){
+                allText = raw.responseText;
+                console.log("" + allText) // can be also console.logged, of course.
+                
+                //Fill in the box with the new text.
+                container.innerHTML = "" + allText;
+            }
+        }
+    }
+    raw.send(null); // return control
+   }
 
 }

@@ -1,6 +1,6 @@
-<h1 class="orange centeredText">Jaguar</h1>
+<h1 class="orange centeredText">Drone Zone</h1>
 
-<p class="justifiedText">Jaguar is a top down shooter playable in your browser. It was created for a university assignment as a solo project over the space of 3 months.</p>
+<p class="justifiedText">Drone Zone is an infinite scrolling game which references the old days of addictive internet games, namely "Helicopter". The game was created in under 3 months in a team of two.</p>
 
 <h3 class="orange">Background</h3>
 
@@ -17,7 +17,7 @@
 <p class="justifiedText">As this was a solo project I had take on many responsibilities which included:</p>
 
 <ul class="ul2">
-	<li class="li2">Creation and mainting of a website to host the game and documentation.</li>
+	<li class="li2">Creation and maintenance of a website to host the game and documentation.</li>
 	<li class="li2">Creation of assets.</li>
 	<li class="li2">Level design, planning and creation.</li>
 	<li class="li2">Coding the game using Javascript and Phaser.</li>
