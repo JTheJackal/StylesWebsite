@@ -9,6 +9,8 @@ import { ActivatedRoute } from '@angular/router';
 export class ViewProjectComponent implements OnInit {
 
   projectName: string;
+    
+  slideIndex: number = 1;
   
   constructor(private route: ActivatedRoute) { 
   
@@ -24,6 +26,7 @@ export class ViewProjectComponent implements OnInit {
     
     this.readFile(this.projectName);
     this.readTechFile(this.projectName);
+    this.showSlide(this.slideIndex);
   }
   
   readFile(filename){
@@ -56,6 +59,14 @@ export class ViewProjectComponent implements OnInit {
             
         case "draughts":
             filepath = "/assets/texts/draughts.txt";
+            break;
+            
+        case "tetris":
+            filepath = "/assets/texts/tetris.txt";
+            break;
+            
+        case "timer":
+            filepath = "/assets/texts/timer.txt";
             break;
             
     }
@@ -95,29 +106,67 @@ export class ViewProjectComponent implements OnInit {
             filepath = "/assets/texts/draughtsTech.txt";
             break;
             
+        case "tetris":
+            filepath = "/assets/texts/tetrisTech.txt";
+            break;
+            
+        case "timer":
+            filepath = "/assets/texts/timerTech.txt";
+            break;
+            
     }
     
     this.handleRequest(container, filepath);
    }
    
    //Function for handling the XMLHttpRequest for reading text files for content.
-   handleRequest(container, filepath){
-   
-    var allText = null;
-    var raw = new XMLHttpRequest(); // create a request
-    raw.open("GET", filepath, true); // open file
-    raw.onreadystatechange = function (){ // file is ready to read
-        if(raw.readyState === 4){
-            if(raw.status === 200 || raw.status == 0){
-                allText = raw.responseText;
-                console.log("" + allText) // can be also console.logged, of course.
-                
-                //Fill in the box with the new text.
-                container.innerHTML = "" + allText;
+    handleRequest(container, filepath){
+
+        var allText = null;
+        var raw = new XMLHttpRequest(); // create a request
+        raw.open("GET", filepath, true); // open file
+        raw.onreadystatechange = function (){ // file is ready to read
+            if(raw.readyState === 4){
+                if(raw.status === 200 || raw.status == 0){
+                    allText = raw.responseText;
+                    console.log("" + allText) // can be also console.logged, of course.
+
+                    //Fill in the box with the new text.
+                    container.innerHTML = "" + allText;
+                }
             }
         }
+        raw.send(null); // return control
     }
-    raw.send(null); // return control
-   }
+    
+    changeImage(num){
+        
+        this.showSlide(this.slideIndex += num);
+    }
+    
+    showSlide(num){
+        
+        var index;
+        var allSlides = document.getElementsByClassName("slides");
+        
+        if(num > allSlides.length){
+            
+            //Return the slideshow to the first image.
+            this.slideIndex = 1;
+        }
+        
+        if(num < 1){
+            
+            //Return the slideshow to the last image.
+            this.slideIndex = allSlides.length;
+        }
+        
+        for(index = 0; index < allSlides.length; index++){
+            
+            (<HTMLElement>allSlides[index]).style.display = "none";
+        }
+        
+        (<HTMLElement>allSlides[this.slideIndex-1]).style.display = "block";
+    }
 
 }

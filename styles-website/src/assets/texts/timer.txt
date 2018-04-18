@@ -1,0 +1,25 @@
+<h1 class="orange centeredText">Timer</h1>
+
+<p class="justifiedText"></p>
+
+<h3 class="orange">Background</h3>
+
+<p class="justifiedText">A simple timer application made as an introduction into developing web applications. The timer was created by myself as a personal project to use vanilla Javascript.</p>
+<br />
+<p class="justifiedText">The user is able to add multiple timers which stack, while the longest timer is displayed as the "main" timer to show the total time. The application was made to be of use for cooking or some other time based task containing multiple timed elements.</p>
+<br />
+
+<h3 class="orange">My roles</h3>
+
+<p class="justifiedText">Some of the tasks undertaken were:</p>
+
+<ul class="ul2">
+	<li class="li2">Planning and designing the application interface.</li>
+	<li class="li2">Using HTML, CSS and Javascript to create the application.</li>
+</ul>
+    
+    
+    
+    
+    
+    
