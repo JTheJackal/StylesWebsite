@@ -77,3 +77,18 @@
     font-size: 34px;
     color: orange;
 }
+
+.animated {
+    
+    -webkit-animation: fade 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fade 1s; /* Firefox < 16 */
+    -ms-animation: fade 1s; /* Internet Explorer */
+    -o-animation: fade 1s; /* Opera < 12.1 */
+    animation: fade 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

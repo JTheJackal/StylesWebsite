@@ -17,13 +17,14 @@ export class ViewProjectComponent implements OnInit {
     this.route.params.subscribe(res => this.projectName = res.projectID);
     //this.projectName = res.projectID;
     
-    console.log("THE PROJECT IS: " + this.projectName);
+    //console.log("THE PROJECT IS: " + this.projectName);
   }
 
   ngOnInit() {
   
     console.log("inited");
     
+    this.buildGallery(this.projectName);
     this.readFile(this.projectName);
     this.readTechFile(this.projectName);
     this.showSlide(this.slideIndex);
@@ -129,7 +130,7 @@ export class ViewProjectComponent implements OnInit {
             if(raw.readyState === 4){
                 if(raw.status === 200 || raw.status == 0){
                     allText = raw.responseText;
-                    console.log("" + allText) // can be also console.logged, of course.
+                    //console.log("" + allText) // can be also console.logged, of course.
 
                     //Fill in the box with the new text.
                     container.innerHTML = "" + allText;
@@ -137,6 +138,78 @@ export class ViewProjectComponent implements OnInit {
             }
         }
         raw.send(null); // return control
+    }
+    
+    buildGallery(projectName){
+        
+        var filepath = null;
+        var picCount = 0;
+        
+        switch(projectName){
+                
+            case "droneZone":
+                
+                picCount = 5;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "jaguar":
+                
+                picCount = 7;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "tetris":
+                
+                picCount = 0;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "IMClient":
+                
+                picCount = 0;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "IMServer":
+                
+                picCount = 0;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "draughts":
+                
+                picCount = 0;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "timer":
+                
+                picCount = 0;
+                this.loadPictures(projectName, picCount);
+                break;
+                
+            case "AA":
+                
+                picCount = 0;
+                this.loadPictures(projectName, picCount);
+                break;
+        }
+    }
+    
+    loadPictures(projectName, picCount){
+        
+        var container = document.getElementById("gallery");
+        
+        for(var i = 1; i < picCount; i++){
+                    
+            container.innerHTML += "<img src='/assets/pictures/" + projectName + "/" + i + ".png' id='image" + i + "' />" 
+
+            document.getElementById("image" + i).classList.add("slides");
+            document.getElementById("image" + i).style.width = "100%";
+            document.getElementById("image" + i).style.height = "100%";
+            document.getElementById("image" + i).classList.add("animated");
+        }
     }
     
     changeImage(num){
