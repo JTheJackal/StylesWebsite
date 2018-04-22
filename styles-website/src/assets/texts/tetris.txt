@@ -4,18 +4,21 @@
 
 <h3 class="orange">Background</h3>
 
-<p class="justifiedText">A simple timer application made as an introduction into developing web applications. The timer was created by myself as a personal project to use vanilla Javascript.</p>
+<p class="justifiedText">Tetris is a web game based on the classic game of the same name. Created by a team of two using JQuery Mobile and Phaser, the game runs in the browser across all devices.</p>
 <br />
-<p class="justifiedText">The user is able to add multiple timers which stack, while the longest timer is displayed as the "main" timer to show the total time. The application was made to be of use for cooking or some other time based task containing multiple timed elements.</p>
+<p class="justifiedText">Tetris requires the player to control falling tetrominos until they land and position them in such a way that they form a solid line, at which point the line disappears, points are given to the player and the difficulty increases. As the difficulty increases, the speed the tetrominos fall is increased. Once the blocks reach the top of the screen, the game is over and the player enters their name if their score is high enough for the leaderboard.</p>
 <br />
-
+<p class="justifiedText">JQuery Mobile was used to contain the game in a responsive framework which will adapt to the device screen is being displayed on, and allow the use of mobile-friendly User Interface elements for menus and controls. The application allows easy navigation between pages for "About", "Rules" and "Rankings" without requiring much in the way of device resources until the actual game is played, at which point the Phaser framework is utilised.</p>
 <h3 class="orange">My roles</h3>
 
-<p class="justifiedText">Some of the tasks undertaken were:</p>
+<p class="justifiedText">I was responsible for the development of the game while the other team member took care of documentation. My tasks included:</p>
 
 <ul class="ul2">
-	<li class="li2">Planning and designing the application interface.</li>
-	<li class="li2">Using HTML, CSS and Javascript to create the application.</li>
+	<li class="li2">Helping plan and design the application interface.</li>
+	<li class="li2">Using HTML5, CSS3, Javascript and JQuery Mobile to create the application.</li>
+    <li class="li2">Creating the game itself using Javascript and the Phaser framework.</li>
+    <li class="li2">Creating all graphical assets using Adobe Photoshop.</li>
+    <li class="li2">Help test the game and documenting results.</li>
 </ul>
     
     

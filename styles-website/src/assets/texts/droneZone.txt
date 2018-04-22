@@ -1,29 +1,32 @@
 <h1 class="orange centeredText">Drone Zone</h1>
 
-<p class="justifiedText">Drone Zone is an infinite scrolling game which references the old days of addictive internet games, namely "Helicopter". The game was created in under 3 months in a team of two.</p>
+<p class="justifiedText">Drone Zone is an infinite scrolling game which acts as a throwback to the old days of addictive internet games, namely "Helicopter". The game was created in under 3 months in a team of two.</p>
 
 <h3 class="orange">Background</h3>
 
-<p class="justifiedText">I was tasked with creating a browser game using HTML5, Javascript and utilising the Phaser framework. I decided to create a top down shooter and draw on inspiration from classic games such as "Doom" and "Aliens VS Predator" while incorporating features one would expect from more modern videogames as an experiment to see if these elements could be successfully combined into an enjoyable game.</p>
+<p class="justifiedText">Our assignment required us to create a web game using HTML5, CSS3, JavaScript and the Phaser framework. It was also a requirement to incorporate online functionality and artificial intelligence into our game design. After pitching our idea and receiving feedback, we eventually landed on the idea of creating an infinitely scrolling game where gravity and obstacles are the players biggest hazard.</p>
 <br />
-<p class="justifiedText">The player controls a nameless hero tasked with finding a datastick and escaping while hordes of hostile aliens try to kill you. To deal with the enemies, the player can fire dual machine pistols which are weak but have an infinite supply of ammunition. Exploration will allow the player to find more powerful weapons with limited ammo, additional ammo, powerups and keycards. Keycards are used for the locked doors found around the level.</p>
+<p class="justifiedText">Set in a Dystopian future and trying to flee a city of Police drones which have gone rogue, the player controls a large, constantly moving drone, using it's thrusters to counter the gravity pulling it down to Earth. Along the way, the city buildings become more dense, making it more difficult to navigate without exploding. Small Police drones attempt to fly themselves into the player's drone in an attempt to stop it, requiring the player to avoid them while navigating.</p>
 <br />
-<p class="justifiedText">Due to my familiarity with creating browser games and using the Phaser framework, I decided I would go beyond the scope of the requirements for the assignment and implement some additional features to bring the game to a higher standard. These additional features were mainly aimed at the user-experience and included a self-sorting, online, top 10 ranking table using PHP and mySQLi, the ability to manually reload and sprint, dialogue for telling the player their current objective and an options menu where the user could change certain things to improve their experience.</p>
+<p class="justifiedText">The end product has three difficulty levels which the game automatically selects depending on the distance travelled by the player; the higher the difficulty level, the higher the speed and the more difficult the terrain becomes. Building types are randomly selected from depending on the current difficulty level but recycle the building objects for optimisation purposes at high speeds. Police drones are generated at set intervals and take aim at the player before flying at them, giving the player time to move. Phaser's inbuilt physics engine is used for the gravity, the steam from the engines and the rain in the background. Once the player's turn has ended and score submitted, the rankings details are updated on Firebase using JSON.</p>
+<br />
+<p class="justifiedText">Many testing sessions were used for the project, allowing testers to leave quantitative and qualitative feedback to influence the game's development. GitHub and Trello were used extensively, allowing us to collaborate with solid version control and stick to a clear project schedule.</p>
 </br />
 <p class="justifiedText">All assets used to create the game were custom made, including sound effects, background music and animated sprites.</p>
 
 <h3 class="orange">My roles</h3>
 
-<p class="justifiedText">As this was a solo project I had take on many responsibilities which included:</p>
+<p class="justifiedText">My role in the team required:</p>
 
 <ul class="ul2">
-	<li class="li2">Creation and maintenance of a website to host the game and documentation.</li>
-	<li class="li2">Creation of assets.</li>
-	<li class="li2">Level design, planning and creation.</li>
+
+	<li class="li2">Documentation including Game Design Document and Technical Specification.</li>
+	<li class="li2">Organising and carrying out test sessions with participants, collecting feedback.</li>
+    <li class="li2">Creating and maintaining of project schedule via Trello.</li>
+	<li class="li2">Creation and maintenance of a website to host the game.</li>
+	<li class="li2">Creation of visual and audio assets.</li>
 	<li class="li2">Coding the game using Javascript and Phaser.</li>
 	<li class="li2">Simple enemy A.I.</li>
-	<li class="li2">Online rankings table using PHP and mySQLi.</li>
-	<li class="li2">Documentation throughout.</li>
 </ul>
     
     
