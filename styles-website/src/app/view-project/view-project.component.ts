@@ -149,7 +149,7 @@ export class ViewProjectComponent implements OnInit {
                 
             case "droneZone":
                 
-                picCount = 5;
+                picCount = 4;
                 this.loadPictures(projectName, picCount);
                 break;
                 
@@ -161,7 +161,7 @@ export class ViewProjectComponent implements OnInit {
                 
             case "tetris":
                 
-                picCount = 0;
+                picCount = 3;
                 this.loadPictures(projectName, picCount);
                 break;
                 
@@ -179,13 +179,13 @@ export class ViewProjectComponent implements OnInit {
                 
             case "draughts":
                 
-                picCount = 0;
+                picCount = 6;
                 this.loadPictures(projectName, picCount);
                 break;
                 
             case "timer":
                 
-                picCount = 0;
+                picCount = 1;
                 this.loadPictures(projectName, picCount);
                 break;
                 
@@ -201,7 +201,7 @@ export class ViewProjectComponent implements OnInit {
         
         var container = document.getElementById("gallery");
         
-        for(var i = 1; i < picCount; i++){
+        for(var i = 1; i <= picCount; i++){
                     
             container.innerHTML += "<img src='/assets/pictures/" + projectName + "/" + i + ".png' id='image" + i + "' />" 
 
