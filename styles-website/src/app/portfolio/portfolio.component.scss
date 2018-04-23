@@ -95,3 +95,77 @@ $id: "none";
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    
+
+    .projectLineup {
+
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .projectThumb {
+
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .halfContainer {
+
+        height: auto;
+    }
+
+    .topContainer {
+
+        //margin: 0 25% 0 25%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .bottomContainer {
+
+        height: auto;
+    }
+
+    .middleContainer {
+
+        height: auto;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .rightContainer {
+
+        padding: 0;
+        height: auto;
+    }
+
+
+    .matchTiles {
+
+        background: #151515;
+        height: auto;
+    }
+
+    .infoContainer {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .buttonContainer {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .viewBTN {
+
+        border: 0;
+    }
+}

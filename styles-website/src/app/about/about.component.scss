@@ -9,3 +9,19 @@
     
     height: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .middleContainer {
+    
+        max-width: 100%;
+        height: auto;
+        padding: 0 2% 0 2%;
+    }
+
+    .rightContainer {
+
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -1,28 +1,28 @@
-<div class="col-10 fullContainer color-light">
-    <div class="row half color-light">
-        <div class="col-3 fullHeight">
+<div class="col-10 fullContainer color-notlight">
+    <div class="row half color-dark">
+        <div class="col-3 fullHeight mobHide">
             <button class="leftBTN arrow" width="5%" height="5%" (click)="changeImage(-1)">&#10094;</button>
         </div>
         <div id="gallery" class="col-6 color-light fullHeight">
 
         </div>
-        <div class="col-3 fullHeight">        
+        <div class="col-3 fullHeight mobHide">        
             <button class="rightBTN arrow" width="5%" height="5%" (click)="changeImage(+1)">&#10095;</button>
         </div>
     </div>
 
-    <div id="projectInfoBox" class="row half color-light infobox">
+    <div id="projectInfoBox" class="row half color-notlight infobox">
         bottom
     </div>
 </div>
 
 <div class="col-2 fullContainer">
     
-    <div id="projectTechBox" class="row infoTop color-notlight">
+    <div id="projectTechBox" class="row infoTop color-light">
         top
     </div>
 
-    <div class="row infoBottom">
+    <div class="row infoBottom color-light">
         <a routerLink="../../portfolio">
             <img src="/assets/portfolioBTN.png" class="returnButton">
         </a>
