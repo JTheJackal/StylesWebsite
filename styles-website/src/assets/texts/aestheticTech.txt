@@ -1,4 +1,4 @@
-<p class="justifiedText">Created using:<p>
+<h4 class="orange smallHead">Created using:</h4>
 
 <ul class="ul2">
 	<li class="li2">Unity 5.3</li>
@@ -6,13 +6,14 @@
 	<li class="li2">Blender 3D</li>
 	<li class="li2">Adobe Photoshop</li>
 </ul>
-<p class="justifiedText">Documentation included:<p>
+
+<h4 class="orange smallHead">Planning & Documentation:</h4>
 
 <ul class="ul2">
 	<li class="li2">Microsoft Project</li>
 	<li class="li2">Microsoft Office</li>
 	<li class="li2">Gantt charts</li>
-	<li class="li2">Critical Path Management chart</li>
+	<li class="li2">CPM chart</li>
 	<li class="li2">RAG Reports</li>
 	<li class="li2">Accurate meeting minutes</li>
 	<li class="li2">Design Document</li>

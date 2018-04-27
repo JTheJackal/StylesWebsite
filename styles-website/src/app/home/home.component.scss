@@ -7,7 +7,6 @@
     
     //margin: 0 25% 0 25%;
     padding-top: 2%;
-    padding-left: 2%;
     text-align: center;
     min-width: 25%;
     height: 100%;
@@ -23,7 +22,7 @@
 .bottomContainer2 {
     
     height: 100%;
-    padding: 4% 2% 0 4%;
+    padding: 2% 1% 0 2%;
 }
 
 .middleContainer {
@@ -46,24 +45,29 @@
 
 .headTXT {
     
-    font-size: 4em;
+    //font-size: 4em;
+    font-size: 3vw;
     margin: 0;
     font-weight: 100;
     transform: scaleY(1);
-    margin-top: 25%;
+    margin-top: 10%;
+    //float: left;
 }
 
 .headTXT2 {
     
-    font-size: 6em;
+    //font-size: 6em;
+    font-size: 4vw;
     margin: 0;
     font-weight: 400;
     color: orange;
+    //float: left;
 }
 
 .welcomeTXT {
     
-    font-size: 7em;
+    //font-size: 7em;
+    font-size: 4vw;
     font-weight: 100;
     color: #252525;
     margin: 0;
@@ -71,52 +75,67 @@
 
 .summaryContainer {
     
-    background-image: -webkit-linear-gradient(40deg, #232323 20%, #1f1f1f 30%);
+    //background-image: -webkit-linear-gradient(40deg, #232323 20%, #1f1f1f 30%);
+    //background-image: -webkit-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+    background-image: -webkit-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+    background-image: -moz-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+    background-image: -ms-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+    background-image: -o-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+    background-image: linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
 }
 
 .summary {
     
-    height: 25%;
+    background-image: url("/assets/Responsive_Web_Design_Demo_Template.svg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 100%;
     width: 100%;
 }
 
 .summaryTXT {
     
     margin: 0;
-    padding-top: 2%;
-    color: #9f9f9f;
+    //padding-top: 2%;
+    color: #424242;
     font-size: 1.5em;
-    font-weight: 100;
+    font-weight: 700;
+    padding-top: 2%;
 }
 
 .summaryTXT1 {
     
-    padding-left: 60%;
-    padding-top: 2.25%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .summaryTXT2 {
     
-    padding-left: 66.5%;
-    padding-top: 2.25%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .summaryTXT3 {
     
-    padding-left: 73.5%;
-    padding-top: 2.25%;
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .summaryTXT4 {
     
-    padding-left: 80.25%;
-    padding-top: 2.25%;
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .line1 {
     
     height: 2px;
-    background: #232323;
+    opacity: 0.1;
+    background: orange;
     position: absolute;
     margin-top: 2.55%;
     margin-left: 6.75%;
@@ -126,8 +145,9 @@
     
     height: 2px;
     width: 1px;
+    opacity: 0.1;
     //background: #252525;
-    background: #232323;
+    background: orange;
     position: absolute;
     margin-top: 2.55%;
     margin-left: 11%;
@@ -137,8 +157,9 @@
     
     height: 2px;
     width: 1px;
+    opacity: 0.1;
     //background: #2a2a2a;
-    background: #232323;
+    background: orange;
     position: absolute;
     margin-top: 2.55%;
     margin-left: 15%;
@@ -148,8 +169,9 @@
     
     height: 2px;
     width: 1px;
+    opacity: 0.1;
     //background: #2f2f2f;
-    background: #232323;
+    background: orange;
     position: absolute;
     margin-top: 2.55%;
     margin-left: 19.25%;
@@ -201,48 +223,93 @@
 
 .introHead {
     
-    -webkit-animation: headFadeIn 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: headFadeIn 4s; /* Firefox < 16 */
-    -ms-animation: headFadeIn 4s; /* Internet Explorer */
-    -o-animation: headFadeIn 4s; /* Opera < 12.1 */
-    animation: headFadeIn 4s;
-    -webkit-animation-delay: 1s;
+    -webkit-animation: headFadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 3s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 3s; /* Internet Explorer */
+    -o-animation: headFadeIn 3s; /* Opera < 12.1 */
+    animation: headFadeIn 3s;
+    
     -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
 }
 
 .movingName {
     
-    -webkit-animation: headFadeIn 1s, stretchName 1s, moveName 1s,; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: headFadeIn 1s, moveName 2s; /* Firefox < 16 */
-    -ms-animation: headFadeIn 1s, moveName 2s; /* Internet Explorer */
-    -o-animation: headFadeIn 1s, moveName 2s; /* Opera < 12.1 */
-    animation: headFadeIn 3s, stretchName 4s, moveName 4s,;
+    -webkit-animation: headFadeIn 3s, stretchName 1s, moveName 1s,; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 3s, moveName 2s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 3s, moveName 2s; /* Internet Explorer */
+    -o-animation: headFadeIn 3s, moveName 2s; /* Opera < 12.1 */
+    animation: headFadeIn 3s, stretchName 3s, moveName 3s;
+    
     -webkit-animation-direction: normal;
     -webkit-animation-delay: 1s, 1s, 1s;
     -webkit-animation-fill-mode: forwards;
-
+    
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 1s, 1s, 1s;
+    -moz-animation-fill-mode: forwards;
+    
+    -ms-animation-direction: normal;
+    -ms-animation-delay: 1s, 1s, 1s;
+    -ms-animation-fill-mode: forwards;
+    
+    -o-animation-direction: normal;
+    -o-animation-delay: 1s, 1s, 1s;
+    -o-animation-fill-mode: forwards;
+    
+    animation-fill-mode: forwards;
+    animation-delay: 1s, 1s, 1s;
+    animation-direction: normal;
 }
 
 .introBody {
     
-    -webkit-animation: headFadeIn 6s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: headFadeIn 6s; /* Firefox < 16 */
-    -ms-animation: headFadeIn 6s; /* Internet Explorer */
-    -o-animation: headFadeIn 6s; /* Opera < 12.1 */
-    animation: headFadeIn 6s;
-    -webkit-animation-delay: 6s;
+    -webkit-animation: headFadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 3s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 3s; /* Internet Explorer */
+    -o-animation: headFadeIn 3s; /* Opera < 12.1 */
+    animation: headFadeIn 3s;
+    -webkit-animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
+    
+    -moz-animation-delay: 3s;
+    -moz-animation-fill-mode: forwards;
+    
+    -ms-animation-delay: 3s;
+    -ms-animation-fill-mode: forwards;
+    
+    -o-animation-delay: 3s;
+    -o-animation-fill-mode: forwards;
+    
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
 
 .introWelcome {
     
-    -webkit-animation: headFadeIn 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: headFadeIn 5s; /* Firefox < 16 */
-    -ms-animation: headFadeIn 5s; /* Internet Explorer */
-    -o-animation: headFadeIn 5s; /* Opera < 12.1 */
-    animation: headFadeIn 5s;
-    -webkit-animation-delay: 5s;
+    -webkit-animation: headFadeIn 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: headFadeIn 3s; /* Firefox < 16 */
+    -ms-animation: headFadeIn 3s; /* Internet Explorer */
+    -o-animation: headFadeIn 3s; /* Opera < 12.1 */
+    animation: headFadeIn 3s;
+    -webkit-animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
+    
+    -moz-animation-delay: 3s;
+    -moz-animation-fill-mode: forwards;
+    
+    -ms-animation-delay: 3s;
+    -ms-animation-fill-mode: forwards;
+    
+    -o-animation-delay: 3s;
+    -o-animation-fill-mode: forwards;
+    
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes headFadeIn {
@@ -268,38 +335,28 @@
     to   { opacity: 1; }
 }
 
-.expandingLine {
-    
-    -webkit-animation-name: squash;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-direction: normal;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-delay: 4s;
-    -webkit-animation-timing-function: ease-out;
-}
-
-.movingCircle {
-    
-    -webkit-animation-name: moveCircle;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-direction: normal;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-delay: 4s;
-    -webkit-animation-timing-function: ease-out;
-}
-
 @-webkit-keyframes squash {
     
     from { width: 0%}
-    to  { width: 27% }
+    to  { width: 60vw };
 }
 
-@-webkit-keyframes moveCircle {
+@-moz-keyframes squash {
     
-        from { }
-        to  { 
-            transform: translateX(24vw);
-        }
+    from { width: 0%}
+    to  { width: 60vw };
+}
+
+@-ms-keyframes squash {
+    
+    from { width: 0%}
+    to  { width: 60vw };
+}
+
+@-o-keyframes squash {
+    
+    from { width: 0%}
+    to  { width: 60vw };
 }
 
 @-webkit-keyframes moveName {
@@ -310,7 +367,55 @@
         }
 }
 
+@-moz-keyframes moveName {
+    
+        from { }
+        to  { 
+            margin-top: 5%;
+        }
+}
+
+@-ms-keyframes moveName {
+    
+        from { }
+        to  { 
+            margin-top: 5%;
+        }
+}
+
+@-o-keyframes moveName {
+    
+        from { }
+        to  { 
+            margin-top: 5%;
+        }
+}
+
 @-webkit-keyframes stretchName {
+    
+        from { }
+        to  { 
+            transform: scaleY(1.4);
+        }
+}
+
+@-moz-keyframes stretchName {
+    
+        from { }
+        to  { 
+            transform: scaleY(1.4);
+        }
+}
+
+@-ms-keyframes stretchName {
+    
+        from { }
+        to  { 
+            transform: scaleY(1.4);
+        }
+}
+
+@-o-keyframes stretchName {
     
         from { }
         to  { 
@@ -399,7 +504,6 @@
 
     .welcomeTXT {
 
-        
         font-size: 1em;
         font-weight: 100;
         color: #252525;

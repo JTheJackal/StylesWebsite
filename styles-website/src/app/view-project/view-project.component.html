@@ -17,17 +17,19 @@
 </div>
 
 <div class="col-2 fullContainer">
-    
     <div id="projectTechBox" class="row infoTop color-light">
         top
     </div>
-
-    <div class="row infoBottom color-light">
-        <a routerLink="../../portfolio">
-            <img src="/assets/portfolioBTN.png" class="returnButton">
-        </a>
-        <a routerLink="../../try-project/{{projectName}}">
-            <img src="/assets/tryBTN.png" class="tryButton">
-        </a>
-    </div>
+    
+    <a routerLink="../../try-project/{{projectName}}">
+        <div class="divBTN">
+            <p class="buttonTXT">Try Project</p>
+        </div>
+    </a>
+    
+    <a routerLink="../../portfolio">
+        <div class="divBTN">
+            <p class="buttonTXT">Return</p>
+        </div>
+    </a>
 </div>

@@ -1,4 +1,4 @@
-<p class="justifiedText">Created using:<p>
+<h4 class="orange smallHead">Created using:</h4>
 
 <ul class="ul2">
 	<li class="li2">Webstorm</li>

@@ -14,14 +14,19 @@ export class TryProjectComponent implements OnInit {
   
     this.route.params.subscribe(res => this.projectName = res.projectID);
     
-    console.log("THE PROOOOJECT ISSS: " + this.projectName)
   }
 
   ngOnInit() {
   
     this.readFile(this.projectName);
+    this.startCanvas(this.projectName);
   }
   
+  startCanvas(fileName){
+      
+      
+  }
+    
   readFile(filename){
   
     var filepath = null;

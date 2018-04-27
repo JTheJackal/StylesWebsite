@@ -33,14 +33,22 @@
     </div>
 </div>
 
-<div class="col-2 color-light rightContainer rounded">
-    <div class="infoContainer color-light" id="infoContainer">
+<div class="col-2 rightContainer rounded">
+    <div class="infoContainer color-notlight" id="infoContainer">
         <p class="justifiedText">Select a project to see more information about it.</p>
     </div>
-    <div class="buttonContainer color-light rounded" id="buttonContainer">
+    <div class="buttonContainer color-notlight rounded" id="buttonContainer">
     
+        <!--
         <a routerLink="../view-project/{{projectID}}">
             <img src="/assets/viewBTN.png" alt="View" class="viewBTN">
+        </a>
+        !-->
+        
+        <a routerLink="../view-project/{{projectID}}">
+            <div class="viewBTN">
+                <p class="buttonTXT"> View Project </p>
+            </div>
         </a>
     </div>
 </div>

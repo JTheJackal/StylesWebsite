@@ -3,16 +3,18 @@
 </div>
 
 <div class="col-2 fullContainer">
-    <div id="instructionsBox" class="row infoTop color-notlight">
+    <div id="instructionsBox" class="infoTop color-notlight">
         top
     </div>
 
-    <div class="row infoBottom">
-        <a routerLink="../../view-project/{{projectName}}">
-            <img src="/assets/viewBTN.png" class="returnButton">
-        </a>
-        <a routerLink="../../portfolio">
-            <img src="/assets/portfolioBTN.png" class="tryButton">
-        </a>
-    </div>
+    <a routerLink="../../view-project/{{projectName}}">
+        <div class="divBTN">
+            <p class="buttonTXT">Return to View</p>
+        </div>
+    </a>
+    <a routerLink="../../portfolio">
+        <div class="divBTN">
+            <p class="buttonTXT">Return to Portfolio</p>
+        </div>
+    </a>
 </div>
