@@ -22,11 +22,11 @@ import { TetrisComponent } from './tetris/tetris.component';
     ContactComponent,
     ViewProjectComponent,
     TryProjectComponent,
-    TetrisComponent
+    TetrisComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

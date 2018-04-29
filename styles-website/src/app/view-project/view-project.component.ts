@@ -28,8 +28,44 @@ export class ViewProjectComponent implements OnInit {
     this.readFile(this.projectName);
     this.readTechFile(this.projectName);
     this.showSlide(this.slideIndex);
+    this.chooseButton(this.projectName);
   }
   
+  chooseButton(filename){
+      
+      var provideLink = false;
+      var button = null;
+      var text = null;
+      
+      if(filename === "droneZone" || filename === "jaguar" || filename === "timer"){
+          
+          provideLink = true;
+      }
+      
+      if(provideLink){
+          
+          document.getElementById("tempBox").innerHTML = "<a href='http://www.joshuastyles.com/games/{{projectName}}/index.html' target='_blank'><div id='dynamicBTN'><p id='dynamicTXT'>Try Project</p></div></a>"
+          
+          button = document.getElementById("dynamicBTN");
+          text = document.getElementById("dynamicTXT");
+          
+          button.style.background = "#191919";
+          button.style.position = "relative";
+          button.style.width = "100%";
+          button.style.height = "100%";
+          button.style.margin = "0";
+          button.style.padding = "0";
+          button.style.borderBottom = "1px solid #010101";
+          
+          text.style.padding = "10% 0 0 0";
+          text.style.margin = "0";
+          text.style.textAlign = "center";
+          text.style.fontSize = "1.2em";
+          text.style.fontWeight = "400";
+          text.style.userSelect = "none";
+      }
+  }
+    
   readFile(filename){
   
     var filepath = null;
