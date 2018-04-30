@@ -203,14 +203,14 @@ export class ViewProjectComponent implements OnInit {
                 
             case "IMClient":
                 
-                picCount = 0;
+                picCount = 4;
                 this.loadPictures(projectName, picCount);
                 break;
                 
             case "IMServer":
                 
-                picCount = 0;
-                this.loadPictures(projectName, picCount);
+                picCount = 4;
+                this.loadPictures("IMClient", picCount);
                 break;
                 
             case "draughts":
