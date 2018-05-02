@@ -456,7 +456,7 @@
 
         max-width: 100%;
         height: 100%;
-        padding: 0;
+        padding: 1% 0 0 0;
     }
 
     .rightContainer {
@@ -466,24 +466,48 @@
         height: 100%;
     }
     
+    .summaryContainer {
+
+        background-image: -webkit-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+        background-image: -moz-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+        background-image: -ms-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+        background-image: -o-linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+        background-image: linear-gradient(180deg, #1f1f1f 85%, #232323 95%);
+        
+        height: 150%;
+    }
+    
+    .summary {
+    
+        background-image: url("/assets/Responsive_Web_Design_Demo_Template.svg.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 100%;
+        width: 100%;
+    }
+    
     .summaryTXT1 {
     
         padding: 0;
+        padding-left: 2%;
     }
 
     .summaryTXT2 {
 
         padding: 0;
+        padding-left: 3%;
     }
 
     .summaryTXT3 {
 
         padding: 0;
+        padding-right: 2%;
     }
 
     .summaryTXT4 {
 
         padding: 0;
+        padding-right: 3%;
     }
     
     .headTXT {

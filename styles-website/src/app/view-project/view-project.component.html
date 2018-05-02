@@ -3,7 +3,7 @@
         <div class="col-3 fullHeight mobHide">
             <button class="leftBTN arrow" width="5%" height="5%" (click)="changeImage(-1)">&#10094;</button>
         </div>
-        <div id="gallery" class="col-6 color-light fullHeight">
+        <div id="gallery" class="col-6 color-light fullHeight" (touchstart)="swipe($event, 'start')" (touchend)="swipe($event, 'end')">
 
         </div>
         <div class="col-3 fullHeight mobHide">        

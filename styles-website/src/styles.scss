@@ -255,6 +255,12 @@ a {
         width: 100%;
     }
     
+    h2 {
+        
+        padding-left: 3%;
+        font-size: 1em;
+    }
+    
     html, body {
     
         background: #222222;
@@ -324,5 +330,59 @@ a {
         margin: 0;
         height: auto;
         padding: 0;
+    }
+    
+    .justifiedText {
+    
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.95em;
+        font-weight: 100;
+        color: #9f9f9f;
+        text-align: justify;
+        margin: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+        line-height: 1.5em;
+    }
+    
+    .highlight {
+    
+        color: orange;
+    }
+    
+    ul {
+    
+        list-style-type: square;
+        margin: 0 0 1em 0;
+        padding: 0;
+        line-height: 1.1em;
+    }
+    
+    .sticky {
+
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    
+    .smallHead {
+        
+        padding-left: 3%;
+        font-size: 0.8em;
+    }
+    
+    ul li {
+
+        font-size: 0.9em;
+    }
+
+    ul li a {
+
+        font-size: 0.7em;
+    }
+    
+    h3 {
+        
+        padding-left: 3%;
     }
 }

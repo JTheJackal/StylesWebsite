@@ -171,9 +171,16 @@ $id: "none";
     }
 }
 
+//Phone
 @media only screen and (max-width: 768px) {
     
 
+    .row {
+        
+        padding: 0;
+        margin: 0;
+    }
+    
     .projectLineup {
 
         height: auto;
@@ -183,8 +190,8 @@ $id: "none";
 
     .projectThumb {
 
-        max-width: 100%;
-        height: 100%;
+        width: 100%;
+        height: 50%;
         margin: 0;
         padding: 0;
     }
@@ -196,8 +203,7 @@ $id: "none";
 
     .topContainer {
 
-        //margin: 0 25% 0 25%;
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
     }
 
@@ -208,18 +214,23 @@ $id: "none";
 
     .middleContainer {
 
+        max-width: 50%;
         height: auto;
         margin: 0;
         padding: 0;
-        overflow: hidden;
+        //overflow: hidden;
+        float: left;
     }
 
     .rightContainer {
 
-        padding: 0;
-        height: auto;
+        position: fixed;
+        left: 50%;
+        top: 25%;
+        max-width: 50%;
+        padding: 2% 2% 0 2%;
+        height: 100%;
     }
-
 
     .matchTiles {
 
@@ -230,17 +241,35 @@ $id: "none";
     .infoContainer {
 
         max-width: 100%;
-        height: auto;
+        height: 60%;
     }
 
     .buttonContainer {
 
+        background: #ffffff;
         max-width: 100%;
-        height: auto;
+        max-height: 15%;
+        bottom: 0;
     }
-
+    
     .viewBTN {
-
+    
+        background: #191919;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
         border: 0;
     }
+
+    .buttonTXT {
+
+        padding: 20% 0 0 0;
+        margin: 0;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 400;
+        user-select: none;
+    }
+    
 }
